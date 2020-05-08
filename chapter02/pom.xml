@@ -3,8 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>eureka-server</module>
-        <module>service-hi</module>
+        <module>chapter02-eureka-server</module>
+        <module>chapter02-service-hi</module>
+        <module>chapter02-service-ribbon</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -14,10 +15,10 @@
     </parent>
 
     <groupId>org.study.yr</groupId>
-    <artifactId>springcloud-chapter1</artifactId>
+    <artifactId>chapter02</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>springcloud-chapter1</name>
+    <name>chapter02</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
