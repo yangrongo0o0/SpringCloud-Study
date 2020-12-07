@@ -8,6 +8,7 @@ class ServiceHiApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("");
     }
 
 }
